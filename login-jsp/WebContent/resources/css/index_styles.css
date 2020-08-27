@@ -1,0 +1,63 @@
+body {
+    background: #0D1F2D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #413925, #5B5034);
+    background: -moz-linear-gradient(right, #413925, #5B5034);
+    background: -o-linear-gradient(right, #413925, #5B5034);
+    background: linear-gradient(to left, #413925, #5B5034);
+
+    font-family: 'Playfair Display', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 250px;
+    margin-top: 150px;
+    border-radius: 3px;
+
+    background-color: #DBD1BD;
+}
+
+input {
+    margin-top: 20px;
+    background-color: #fff;
+    height: 25px;
+    padding: 8px;
+    width: 200px;
+
+    border: 0px;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: none;
+    background-color: #F8F6F2;
+}
+
+button {
+    margin-top: 20px;
+    height: 25px;
+    width: 216px;
+
+    border: 0px;
+    border-radius: 4px;
+
+    color: #fff;
+
+    background-color: #5B5034;
+}
+
+button:hover {
+    background-color: #413925;
+}

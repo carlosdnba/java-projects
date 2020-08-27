@@ -1,0 +1,17 @@
+body {
+    background-color: #C7CCDB;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #2A324B;
+}
+
+img {
+	width: 256px;
+	height: 256px;
+}
